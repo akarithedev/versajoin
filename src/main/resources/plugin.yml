@@ -6,9 +6,12 @@ permissions:
   versajoin.admin:
     description: "Let's you reload the plugin"
     default: op
-  versajoin.format.default:
-    description: "The default format"
-    default: true
+  versajoin.format.staff:
+    description: "Permission for staff ranks"
+    default: false
+  versajoin.format.donator:
+    description: "Permission for donator ranks"
+    default: false
 commands:
   versajoin:
     description: "Main command"
