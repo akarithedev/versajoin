@@ -1,0 +1,14 @@
+name: VersaJoin
+version: '${project.version}'
+main: dev.ayame.versajoin.VersaJoin
+description: "${project.description}"
+permissions:
+  versajoin.admin:
+    description: "Let's you reload the plugin"
+    default: op
+  versajoin.format.default:
+    description: "The default format"
+    default: true
+commands:
+  versajoin:
+    description: "Main command"

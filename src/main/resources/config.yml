@@ -1,0 +1,6 @@
+#Configuration file of the plugin
+chat:
+  format-messages:
+    default: "something"
+    staff: "something2"
+    donator: "something3"
